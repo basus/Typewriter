@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#header h1 {
+    font-family: TexGyreCursorRegular;
+    padding-top: 0;
+    padding-bottom: 0.2em;
+}
+
+#typewriter {
+    text-align: center;
+}
+
+#keyboard {
+    text-align: center;
+    margin-top: 3em;
+}
+
+.row li{
+    font-family: TexGyreCursorBold;
+    font-size: 25px;
+    list-style-type: none;
+    display: inline; 
+    border: 1px solid black;
+    border-radius: 7px;
+    margin-left: 0.3em; margin-right: 0.3em; margin-top: 2em;
+    padding-left: 0.4em; padding-right: 0.4em; padding-bottom: 0.2em;
+    line-height: 2em;
+}
+
+.pressed {
+    color:white;
+    background: black;
+}
+
+li#spacebar {
+    width: 20%;
+}
+
+
+#paper {
+    font-family: MyUnderwoodRegular;
+    font-size: 20px;
+    text-align: left;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+    height: 20em;
+    border: none;
+}
