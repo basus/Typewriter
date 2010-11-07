@@ -35,7 +35,7 @@ var insert = function(event) {
         if (each.innerHTML[0] == key) {
             each.className += "pressed";
             pressed.push(each);
-            setTimeout('unpress()',200);
+            setTimeout('unpress()',250);
             break;
             }
     }
